@@ -1,56 +1,57 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<style>
+.page__content p:first-of-type {
+  margin-top: 1em;
+}
+</style>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hi, I'm Sizhe (Alex) Xu 👋
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a **Master of Science student** at **New York University**, working with Prof. [Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research interests lie at the intersection of **LLMs, Reinforcement Learning, Time-Series Prediction, and Computer Vision**, with a particular focus on their application in building smarter and more efficient cities now.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am actively seeking **Ph.D.** opportunities for Fall 2026. I am eager to join a research group where I can contribute to developing next-generation intelligent systems and tackle fundamental challenges in areas like LLMs, Embodied AI and Urban Computing.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+> ### Recent Highlights:
+> * **Dec 2025:** I will be attending **NeurIPS 2025** in **San Diego**. 
+> 
+> * **Sept 2025:** Our paper, "[Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss][paper-link]," was accepted as a **Spotlight** poster at **NeurIPS 2025**.
+> 
+> Please feel free to reach out if you'd like to connect!
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Academic Journey
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- Master of Science in Urban Data Science, New York University
+  - Capstone mentored by [Takahiro Yabe][Takahiro Yabe-link].
+- Bachelor of Engineering in Electronic Engineering, Dalian Jiaotong University
+  - [Capstone][undergrad capstone-link] with [Prof. Jingjing Zong][ZJJ-link] & mentor [Shijie Jia][JSJ-link].
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Outside Research
 
-**Markdown generator**
+My approach to technology is shaped by pursuits beyond the lab. You might find me in the kitchen experimenting with new recipes—a process of creativity and precision not unlike building a model. I find a similar sense of structure and harmony in classical music, which reminds me of the elegance that can be found in complex systems. For a different kind of immersive challenge, I enjoy exploring the intricate world of *Elden Ring* and *Dark Souls III*. These interests, grounded in a long-standing engagement with philosophy, reinforce my core conviction: that our work as technologists should be thoughtfully crafted to serve and uplift humanity.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+### Contact
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+[Takahiro Yabe-link]: https://engineering.nyu.edu/faculty/takahiro-yabe
+[paper-link]: ../files/27228_Abstain_Mask_Retain_Core.pdf
+[RUN lab-link]: https://www.takayabe.net/
+[undergrad capstone-link]: https://github.com/MazelTovy/image_segmentation_beamer
+[ZJJ-link]: http://srie.djtu.edu.cn/162.html
+[JSJ-link]: http://www.djtu.edu.cn/teacher/43.html
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<!-- I am a Master Student at **New York University**, with a deep research interest in building autonomous agents capable of understanding, reasoning, and interacting with complex, dynamic environments. My goal is to contribute to the development of Embodied AI and World Models, bridging the gap between digital intelligence and the physical world.
+
+My research approach is demonstrated in my co-first author paper, "Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss," which will be presented as a **Spotlight (Top 5%)** at **NeurIPS 2025**. In this work, we challenged the conventional "long-sequence information gain" hypothesis in time series forecasting. We proposed the AMRC framework, grounded in information bottleneck theory, which adaptively masks redundant information to enhance prediction accuracy and representation stability. This work underscores my ability to question established assumptions and develop novel, principled machine learning solutions.
+
+Beyond foundational model research, I am passionate about applying these principles to create intelligent systems. I explored high-level decision-making by developing the "Thinking on the Move (TOM)" framework, which uses LLM-powered agents to simulate complex human mobility behaviors in urban settings. My hands-on experience extends to low-level control and perception, where I led a team to win the First Prize in the National Smart Car Competition by engineering an autonomous vehicle from the ground up, integrating custom hardware, control systems, and computer vision models.
+
+I am currently seeking a **Ph.D. position** where I can leverage my background in machine learning, agent-based modeling, and robotics to tackle fundamental challenges in building next-generation intelligent agents. I am particularly excited about research in Vision-Language-Action (VLA) models, reinforcement learning with human feedback, and the scalability of world models. -->
