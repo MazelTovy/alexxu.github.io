@@ -139,4 +139,22 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
+  // Auto-hide masthead on scroll
+  let lastScrollTop = 0;
+  $(window).scroll(function() {
+    let scrollTop = $(this).scrollTop();
+    
+    if (scrollTop > lastScrollTop && scrollTop > 100) {
+      // Scrolling down - hide masthead
+      $('.masthead').addClass('masthead--hidden');
+      console.log('Hiding masthead'); // Debug log
+    } else {
+      // Scrolling up - show masthead
+      $('.masthead').removeClass('masthead--hidden');
+      console.log('Showing masthead'); // Debug log
+    }
+    
+    lastScrollTop = scrollTop;
+  });
+
 });

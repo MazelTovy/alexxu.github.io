@@ -13,16 +13,17 @@ Education
 ======
 * **M.S. in Urban Data Science** (GPA: 3.9/4.0) <br> **New York University**, New York, NY · Sept 2024 - Present
   * Courses: Urban Computing & AI, Data Science, Deep Learning, Computer Vision, Large Language and Vision Models, Transportation and Logistics, Innovative City Governance, Probability and Stochastic Processes
-  * Mentor: [Takahiro Yabe](https://engineering.nyu.edu/faculty/takahiro-yabe)
+  * Mentor: [Prof. Takahiro Yabe](https://engineering.nyu.edu/faculty/takahiro-yabe)
 * **B.E. in Electronics Engineering** (GPA: 88/100) <br> **Dalian Jiaotong University**, Dalian · Sept 2020 - June 2024
-  * Mentor: [Shijie Jia](http://www.djtu.edu.cn/teacher/43.html)
+  * Mentor: [Prof. Shijie Jia](http://www.djtu.edu.cn/teacher/43.html)
 
 
 Experience
 ======
 * **Student Researcher** <br> **New York University**, New York · June 2025 - Present
-  * LLM-enhanced Agent Modeling: Integrated Dewey and Cuebiq mobility datasets for Brooklyn Downtown analysis; pioneered LLM-generated user profiles in agent-based modeling to simulate individual decision-making and aggregate mobility behaviors for realistic forecasting.
-  * Predictive Analytics Framework: Established evaluation framework benchmarking LLM-enhanced models against conventional discrete choice and gravity models; developed commercial site selection optimization through predictive mobility analytics.
+  * LLM-driven Agent-Based Modeling: Developed a simulation framework using LLMs to generate synthetic user personas from environmental data and differentially-private individual trajectories. This approach models micro-level economic decision-making and provides a novel benchmark against traditional agent-based models.
+  * Time-Series Representation Learning: Investigated the role of adaptive masking in eliminating data redundancy for time-series forecasting. This research led to a dynamic masking loss framework with representation consistency constraints that challenged conventional long-sequence information hypotheses and significantly improved prediction accuracy.
+  * Advanced Positional Encoding: Researched and developed novel positional encoding methods to enhance the representation of high-dimensional data within neural network architectures, leading to a proposed Generalized ROPE for n-dimensional position embedding.
 
 * **Undergraduate Researcher** <br> **Dalian Jiaotong University**, Dalian · Dec 2022 - July 2024
   * Led a 5-member multidisciplinary team to develop a first-place award-winning autonomous vehicle system, integrating Mecanum wheel chassis, custom PCB with NXP RT1064 microcontroller, MobileNetV2-based computer vision, and robotic arm automation for intelligent objective sorting and storage tasks.

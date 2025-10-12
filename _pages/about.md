@@ -15,23 +15,23 @@ redirect_from:
 
 Hi, I'm Sizhe (Alex) Xu 👋
 
-I am a **Master of Science student** at **New York University**, working with Prof. [Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research interests lie at the intersection of **LLMs, Reinforcement Learning, Time-Series Prediction, and Computer Vision**, with a particular focus on their application in building smarter and more efficient cities now.
+I am a **Master of Science student** at **New York University**, working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research interests lie at the intersection of **LLMs, Reinforcement Learning, Time-Series Prediction, and Computer Vision**, with a particular focus on their application in building smarter and more efficient cities now.
 
 I am actively seeking **Ph.D.** opportunities for Fall 2026. I am eager to join a research group where I can contribute to developing next-generation intelligent systems and tackle fundamental challenges in areas like LLMs, Embodied AI and Urban Computing.
 
-> ### Recent Highlights:
+> ### Recent Highlights 🎉:
 > * **Dec 2025:** I will be attending **NeurIPS 2025** in **San Diego**. 
 > 
 > * **Sept 2025:** Our paper, "[Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss][paper-link]," was accepted as a **Spotlight** poster at **NeurIPS 2025**.
 > 
 > Please feel free to reach out if you'd like to connect!
 
-### Academic Journey
+### Academic Journey 🎓
 
 - Master of Science in Urban Data Science, New York University
-  - Capstone mentored by [Takahiro Yabe][Takahiro Yabe-link].
+  - Capstone mentored by [Prof. Takahiro Yabe][Takahiro Yabe-link].
 - Bachelor of Engineering in Electronic Engineering, Dalian Jiaotong University
-  - [Capstone][undergrad capstone-link] with [Prof. Jingjing Zong][ZJJ-link] & mentor [Shijie Jia][JSJ-link].
+  - [Capstone][undergrad capstone-link] with [Prof. Jingjing Zong][ZJJ-link] & mentor [Prof. Shijie Jia][JSJ-link].
 
 ### Outside Research
 
