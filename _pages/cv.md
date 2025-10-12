@@ -72,4 +72,4 @@ Resume
 ======
 My resume can be downloaded [here][resume-link].
 
-[resume-link]: "./file/Sizhe_Xu-sx2490@nyu.edu-resume.pdf"
+[resume-link]: "../file/Sizhe_Xu-sx2490@nyu.edu-resume.pdf"
