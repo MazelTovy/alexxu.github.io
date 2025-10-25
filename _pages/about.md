@@ -42,7 +42,7 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
 - **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
 [Takahiro Yabe-link]: https://engineering.nyu.edu/faculty/takahiro-yabe
-[paper-link]: ../files/27228_Abstain_Mask_Retain_Core.pdf
+[paper-link]: https://arxiv.org/abs/2510.19980
 [RUN lab-link]: https://www.takayabe.net/
 [undergrad capstone-link]: https://github.com/MazelTovy/image_segmentation_beamer
 [ZJJ-link]: http://srie.djtu.edu.cn/162.html
